@@ -38,4 +38,5 @@ router.post('/moban', controllers.moban)
 router.get('/getvid', controllers.getvid)
 router.post('/getvid', controllers.getvid)
 router.get('/sqltest', controllers.sqltest)
+router.get('/code', controllers.getcode)
 module.exports = router
